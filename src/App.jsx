@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -11,6 +12,9 @@ const App = () => {
       </section>
       <section>
         <About />
+      </section>
+      <section>
+        <Features />
       </section>
     </main>
   );
