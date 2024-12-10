@@ -16,7 +16,7 @@ const Button = ({ id, title, rightIcon, leftIcon, containerClass }) => {
 };
 
 Button.propTypes = {
-  id: PropTypes.string.isRequired,
+  id: PropTypes.string,
   title: PropTypes.string.isRequired,
   rightIcon: PropTypes.node,
   leftIcon: PropTypes.node,

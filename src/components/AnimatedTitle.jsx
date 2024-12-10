@@ -47,7 +47,7 @@ const AnimatedTitle = ({ title, containerClass }) => {
 
 AnimatedTitle.propTypes = {
   title: PropTypes.string.isRequired,
-  containerClass: PropTypes.string.isRequired,
+  containerClass: PropTypes.string,
 };
 
 export default AnimatedTitle;
