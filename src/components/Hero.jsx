@@ -80,7 +80,7 @@ const Hero = () => {
 
   const getVideoSource = (index) => `/videos/hero-${index}.mp4`;
   return (
-    <div className="relative w-screen h-dvh overflow-x-hidden">
+    <section id="home" className="relative w-screen h-dvh overflow-x-hidden">
       {isLoading && <Loading />}
       <div
         id="video-frame"
@@ -147,7 +147,7 @@ const Hero = () => {
       <h1 className="special-font hero-heading absolute bottom-5 right-5 text-black">
         G<b>A</b>MING
       </h1>
-    </div>
+    </section>
   );
 };
 
