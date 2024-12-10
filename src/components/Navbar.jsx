@@ -4,7 +4,7 @@ import { TiLocationArrow } from "react-icons/ti";
 import { useWindowScroll } from "react-use";
 import Button from "./Button";
 
-const navItems = ["Nexus", "Vault", "Prolouge", "About", "Contact"];
+const navItems = ["Home", "About", "Features", "Story", "Contact"];
 
 const Navbar = () => {
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
